@@ -1,0 +1,60 @@
+{
+  "alpha_kj": 62.015839866683066,
+  "h12_kj": -235.8174310466176,
+  "step": 1,
+  "bins": 50,
+  "minpts": 30,
+  "assignment_mode": "strict",
+  "confidence": "high",
+  "fallbacks_used": [
+    "barrier_asymmetry"
+  ],
+  "warnings": [
+    "Selected TS is noticeably asymmetric relative to the reactant and product basins."
+  ],
+  "states": {
+    "RS": {
+      "bin_index": 6,
+      "bin_lower_kj": -682.0158398666831,
+      "bin_upper_kj": -628.5872684381116,
+      "x_kj": -655.3015541523973,
+      "raw_y_kj": -70.70937431658861,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "TS": {
+      "bin_index": 16,
+      "bin_lower_kj": -147.73012558096855,
+      "bin_upper_kj": -94.30155415239713,
+      "x_kj": -121.01583986668284,
+      "raw_y_kj": -46.002581750165625,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "PS": {
+      "bin_index": 31,
+      "bin_lower_kj": 653.6984458476029,
+      "bin_upper_kj": 707.1270172761745,
+      "x_kj": 680.4127315618887,
+      "raw_y_kj": -106.88172077139015,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    }
+  },
+  "metadata": {
+    "reaction": "reaction2",
+    "case_type": "system_site",
+    "system": "sys03_khco3_co2_tip3p_graphene",
+    "site": "site03_res1122",
+    "preset": "baseline",
+    "assignment_mode": "strict",
+    "confidence": "high",
+    "label": "Reaction 2: COOH formation: sys03_khco3_co2_tip3p_graphene/site03_res1122"
+  }
+}

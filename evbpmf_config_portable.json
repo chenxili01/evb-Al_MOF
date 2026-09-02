@@ -1,0 +1,78 @@
+{
+  "helper_path": "analysis_code/cluster_evb_tools",
+  "data_root": "input_data",
+  "dft_benchmark": {
+    "reaction1": {"barrier_kcal": 15.83, "free_energy_kcal": 4.56, "reverse_isfs": true},
+    "reaction2": {"barrier_kcal": 5.19, "free_energy_kcal": -12.86, "reverse_isfs": false},
+    "reaction3": {"barrier_kcal": 0.23, "free_energy_kcal": -6.63, "reverse_isfs": false},
+    "reaction4": {"barrier_kcal": 3.58, "free_energy_kcal": -16.08, "reverse_isfs": false}
+  },
+  "reactions": [
+    {
+      "name": "reaction1",
+      "label": "Reaction 1: CO2 adsorption",
+      "reaction_path": "input_data/reaction1",
+      "reference_path": "input_data/ref_reaction1",
+      "parameter_mode": "fit_reference",
+      "use_stable_boltzmann": true,
+      "plot_state_padding_fraction": 0.1,
+      "barrierless_barrier_tolerance_kcal": 0.1,
+      "barrierless_free_energy_tolerance_kcal": 0.05,
+      "resolution_presets": [
+        {"name": "baseline", "step": 1, "bins": 50, "minpts": 30, "state_min_prominence": 1.0, "state_min_basin_width": 2.0, "state_edge_exclusion_bins": 2},
+        {"name": "relaxed_topology", "step": 1, "bins": 50, "minpts": 15, "state_min_prominence": 0.0, "state_min_basin_width": 0.0, "state_edge_exclusion_bins": 2},
+        {"name": "low_minpts", "step": 1, "bins": 60, "minpts": 5, "state_min_prominence": 0.0, "state_min_basin_width": 0.0, "state_edge_exclusion_bins": 2}
+      ]
+    },
+    {
+      "name": "reaction2",
+      "label": "Reaction 2: COOH formation",
+      "reaction_path": "input_data/reaction2",
+      "reference_path": "input_data/ref_reaction2",
+      "require_rs_basin": true,
+      "parameter_mode": "fit_reference",
+      "use_stable_boltzmann": true,
+      "plot_state_padding_fraction": 0.1,
+      "barrierless_barrier_tolerance_kcal": 0.1,
+      "barrierless_free_energy_tolerance_kcal": 0.05,
+      "resolution_presets": [
+        {"name": "baseline", "step": 1, "bins": 50, "minpts": 30, "state_min_prominence": 1.0, "state_min_basin_width": 2.0, "state_edge_exclusion_bins": 2},
+        {"name": "relaxed_topology", "step": 1, "bins": 50, "minpts": 15, "state_min_prominence": 0.0, "state_min_basin_width": 0.0, "state_edge_exclusion_bins": 2},
+        {"name": "low_minpts", "step": 1, "bins": 60, "minpts": 5, "state_min_prominence": 0.0, "state_min_basin_width": 0.0, "state_edge_exclusion_bins": 2}
+      ]
+    },
+    {
+      "name": "reaction3",
+      "label": "Reaction 3: C-OH cleavage",
+      "reaction_path": "input_data/reaction3",
+      "reference_path": "input_data/ref_reaction3",
+      "parameter_mode": "fit_reference_standard",
+      "fit_max_iterations": 2000,
+      "central_window": true,
+      "use_stable_boltzmann": true,
+      "plot_state_padding_fraction": 0.1,
+      "barrierless_barrier_tolerance_kcal": 0.1,
+      "barrierless_free_energy_tolerance_kcal": 0.05,
+      "resolution_presets": [
+        {"name": "baseline", "step": 1, "bins": 50, "minpts": 30, "state_min_prominence": 1.0, "state_min_basin_width": 2.0, "state_edge_exclusion_bins": 2, "central_window_kj": [1500.0, 3000.0, 5000.0, 8000.0], "central_window_max_y_range_kcal": 20.0, "require_central_window": true},
+        {"name": "relaxed_topology", "step": 1, "bins": 50, "minpts": 15, "state_min_prominence": 0.0, "state_min_basin_width": 0.0, "state_edge_exclusion_bins": 2, "central_window_kj": [1500.0, 3000.0, 5000.0, 8000.0], "central_window_max_y_range_kcal": 20.0, "require_central_window": true},
+        {"name": "low_minpts", "step": 1, "bins": 60, "minpts": 5, "state_min_prominence": 0.0, "state_min_basin_width": 0.0, "state_edge_exclusion_bins": 2, "central_window_kj": [1500.0, 3000.0, 5000.0, 8000.0], "central_window_max_y_range_kcal": 20.0, "require_central_window": true}
+      ]
+    },
+    {
+      "name": "reaction4",
+      "label": "Reaction 4: CO desorption",
+      "reaction_path": "input_data/reaction4",
+      "reference_path": "input_data/ref_reaction4",
+      "parameter_mode": "fit_reference",
+      "use_stable_boltzmann": true,
+      "plot_state_padding_fraction": 0.1,
+      "barrierless_barrier_tolerance_kcal": 0.1,
+      "barrierless_free_energy_tolerance_kcal": 0.05,
+      "resolution_presets": [
+        {"name": "baseline", "step": 1, "bins": 40, "minpts": 30, "state_min_prominence": 1.0, "state_min_basin_width": 2.0, "state_edge_exclusion_bins": 2},
+        {"name": "relaxed_topology", "step": 1, "bins": 40, "minpts": 30, "state_min_prominence": 0.0, "state_min_basin_width": 0.0, "state_edge_exclusion_bins": 2}
+      ]
+    }
+  ]
+}

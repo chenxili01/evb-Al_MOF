@@ -1,0 +1,60 @@
+{
+  "alpha_kj": 269.28030947557465,
+  "h12_kj": -1005.947471980464,
+  "step": 1,
+  "bins": 50,
+  "minpts": 30,
+  "assignment_mode": "strict",
+  "confidence": "high",
+  "fallbacks_used": [
+    "barrier_asymmetry"
+  ],
+  "warnings": [
+    "Selected TS is noticeably asymmetric relative to the reactant and product basins."
+  ],
+  "states": {
+    "RS": {
+      "bin_index": 8,
+      "bin_lower_kj": -2091.7394931490435,
+      "bin_upper_kj": -1964.984391108227,
+      "x_kj": -2028.3619421286353,
+      "raw_y_kj": -371.77766703144573,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "TS": {
+      "bin_index": 23,
+      "bin_lower_kj": -190.41296253679795,
+      "bin_upper_kj": -63.65786049598162,
+      "x_kj": -127.03541151638979,
+      "raw_y_kj": -327.4037257485832,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "PS": {
+      "bin_index": 38,
+      "bin_lower_kj": 1710.9135680754475,
+      "bin_upper_kj": 1837.668670116264,
+      "x_kj": 1774.2911190958557,
+      "raw_y_kj": -394.16921284911393,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    }
+  },
+  "metadata": {
+    "reaction": "reaction1",
+    "case_type": "system_site",
+    "system": "sys03_khco3_co2_tip3p_graphene",
+    "site": "site08_res1154",
+    "preset": "baseline",
+    "assignment_mode": "strict",
+    "confidence": "high",
+    "label": "Reaction 1: CO2 adsorption: sys03_khco3_co2_tip3p_graphene/site08_res1154"
+  }
+}

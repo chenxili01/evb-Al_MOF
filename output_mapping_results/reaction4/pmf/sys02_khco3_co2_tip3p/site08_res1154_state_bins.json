@@ -1,0 +1,61 @@
+{
+  "alpha_kj": 2296.8472392135454,
+  "h12_kj": -2114.516560269718,
+  "step": 1,
+  "bins": 40,
+  "minpts": 30,
+  "assignment_mode": "strict",
+  "confidence": "high",
+  "fallbacks_used": [
+    "barrier_asymmetry"
+  ],
+  "warnings": [
+    "Selected TS is noticeably asymmetric relative to the reactant and product basins.",
+    "RS-normalized PMF y-range is 116.89 kcal/mol, above the 20.0 kcal/mol caution threshold."
+  ],
+  "states": {
+    "RS": {
+      "bin_index": 15,
+      "bin_lower_kj": -1910.2959571622584,
+      "bin_upper_kj": -1418.6933930596945,
+      "x_kj": -1664.4946751109765,
+      "raw_y_kj": -963.2845688643646,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "TS": {
+      "bin_index": 19,
+      "bin_lower_kj": 56.11429924799788,
+      "bin_upper_kj": 547.7168633505619,
+      "x_kj": 301.9155812992799,
+      "raw_y_kj": -941.063323196906,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "PS": {
+      "bin_index": 27,
+      "bin_lower_kj": 3988.93481206851,
+      "bin_upper_kj": 4480.537376171074,
+      "x_kj": 4234.736094119792,
+      "raw_y_kj": -1010.844129891351,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    }
+  },
+  "metadata": {
+    "reaction": "reaction4",
+    "case_type": "system_site",
+    "system": "sys02_khco3_co2_tip3p",
+    "site": "site08_res1154",
+    "preset": "baseline",
+    "assignment_mode": "strict",
+    "confidence": "high",
+    "label": "Reaction 4: CO desorption: sys02_khco3_co2_tip3p/site08_res1154"
+  }
+}

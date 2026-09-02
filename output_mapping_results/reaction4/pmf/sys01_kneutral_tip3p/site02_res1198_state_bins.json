@@ -1,0 +1,65 @@
+{
+  "alpha_kj": 2296.8472392135454,
+  "h12_kj": -2114.516560269718,
+  "step": 1,
+  "bins": 40,
+  "minpts": 30,
+  "assignment_mode": "fallback",
+  "confidence": "low",
+  "fallbacks_used": [
+    "side_fallback_basin",
+    "barrier_asymmetry"
+  ],
+  "warnings": [
+    "Using the lowest-energy sampled right bin as a fallback basin.",
+    "Selected TS is noticeably asymmetric relative to the reactant and product basins.",
+    "RS-normalized PMF y-range is 114.31 kcal/mol, above the 20.0 kcal/mol caution threshold."
+  ],
+  "states": {
+    "RS": {
+      "bin_index": 15,
+      "bin_lower_kj": -1962.8215981879023,
+      "bin_upper_kj": -1494.372880239184,
+      "x_kj": -1728.5972392135432,
+      "raw_y_kj": -971.4417938928731,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "TS": {
+      "bin_index": 19,
+      "bin_lower_kj": -89.02672639303017,
+      "bin_upper_kj": 379.4219915556877,
+      "x_kj": 145.19763258132878,
+      "raw_y_kj": -945.9561053263709,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "PS": {
+      "bin_index": 28,
+      "bin_lower_kj": 4127.01173514543,
+      "bin_upper_kj": 4595.460453094149,
+      "x_kj": 4361.236094119789,
+      "raw_y_kj": -1010.1769803781705,
+      "source": "fallback",
+      "penalties": [
+        "side_fallback_basin"
+      ],
+      "accepted_strictly": false,
+      "points": []
+    }
+  },
+  "metadata": {
+    "reaction": "reaction4",
+    "case_type": "system_site",
+    "system": "sys01_kneutral_tip3p",
+    "site": "site02_res1198",
+    "preset": "baseline",
+    "assignment_mode": "fallback",
+    "confidence": "low",
+    "label": "Reaction 4: CO desorption: sys01_kneutral_tip3p/site02_res1198"
+  }
+}

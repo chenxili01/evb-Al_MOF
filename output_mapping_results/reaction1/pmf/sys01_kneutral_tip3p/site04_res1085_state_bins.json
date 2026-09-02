@@ -1,0 +1,64 @@
+{
+  "alpha_kj": 269.28030947557465,
+  "h12_kj": -1005.947471980464,
+  "step": 1,
+  "bins": 50,
+  "minpts": 30,
+  "assignment_mode": "fallback",
+  "confidence": "low",
+  "fallbacks_used": [
+    "bracketed_ts",
+    "barrier_asymmetry"
+  ],
+  "warnings": [
+    "Using the highest sampled bin between RS and PS as a fallback transition state.",
+    "Selected TS is noticeably asymmetric relative to the reactant and product basins."
+  ],
+  "states": {
+    "RS": {
+      "bin_index": 8,
+      "bin_lower_kj": -2125.3619421286367,
+      "bin_upper_kj": -1996.8721462102694,
+      "x_kj": -2061.117044169453,
+      "raw_y_kj": -365.9427668071535,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "TS": {
+      "bin_index": 23,
+      "bin_lower_kj": -198.01500335312727,
+      "bin_upper_kj": -69.52520743475992,
+      "x_kj": -133.7701053939436,
+      "raw_y_kj": -311.0158925372243,
+      "source": "bracketed",
+      "penalties": [
+        "bracketed_ts"
+      ],
+      "accepted_strictly": false,
+      "points": []
+    },
+    "PS": {
+      "bin_index": 38,
+      "bin_lower_kj": 1729.3319354223822,
+      "bin_upper_kj": 1857.8217313407495,
+      "x_kj": 1793.5768333815658,
+      "raw_y_kj": -364.64949045676565,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    }
+  },
+  "metadata": {
+    "reaction": "reaction1",
+    "case_type": "system_site",
+    "system": "sys01_kneutral_tip3p",
+    "site": "site04_res1085",
+    "preset": "baseline",
+    "assignment_mode": "fallback",
+    "confidence": "low",
+    "label": "Reaction 1: CO2 adsorption: sys01_kneutral_tip3p/site04_res1085"
+  }
+}

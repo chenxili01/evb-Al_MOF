@@ -1,0 +1,60 @@
+{
+  "alpha_kj": 62.015839866683066,
+  "h12_kj": -235.8174310466176,
+  "step": 1,
+  "bins": 50,
+  "minpts": 30,
+  "assignment_mode": "strict",
+  "confidence": "high",
+  "fallbacks_used": [
+    "barrier_asymmetry"
+  ],
+  "warnings": [
+    "Selected TS is noticeably asymmetric relative to the reactant and product basins."
+  ],
+  "states": {
+    "RS": {
+      "bin_index": 6,
+      "bin_lower_kj": -687.5872684381118,
+      "bin_upper_kj": -640.0260439483159,
+      "x_kj": -663.8066561932138,
+      "raw_y_kj": -70.42574510547558,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "TS": {
+      "bin_index": 17,
+      "bin_lower_kj": -164.41379905035683,
+      "bin_upper_kj": -116.85257456056092,
+      "x_kj": -140.63318680545888,
+      "raw_y_kj": -47.645949145183984,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "PS": {
+      "bin_index": 35,
+      "bin_lower_kj": 691.6882417659696,
+      "bin_upper_kj": 739.2494662557655,
+      "x_kj": 715.4688540108675,
+      "raw_y_kj": -115.65630161563152,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    }
+  },
+  "metadata": {
+    "reaction": "reaction2",
+    "case_type": "system_site",
+    "system": "sys02_khco3_co2_tip3p",
+    "site": "site08_res1154",
+    "preset": "baseline",
+    "assignment_mode": "strict",
+    "confidence": "high",
+    "label": "Reaction 2: COOH formation: sys02_khco3_co2_tip3p/site08_res1154"
+  }
+}

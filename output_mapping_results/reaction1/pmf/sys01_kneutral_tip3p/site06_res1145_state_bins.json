@@ -1,0 +1,60 @@
+{
+  "alpha_kj": 269.28030947557465,
+  "h12_kj": -1005.947471980464,
+  "step": 1,
+  "bins": 50,
+  "minpts": 30,
+  "assignment_mode": "strict",
+  "confidence": "high",
+  "fallbacks_used": [
+    "barrier_asymmetry"
+  ],
+  "warnings": [
+    "Selected TS is noticeably asymmetric relative to the reactant and product basins."
+  ],
+  "states": {
+    "RS": {
+      "bin_index": 8,
+      "bin_lower_kj": -2093.341533965371,
+      "bin_upper_kj": -1965.9741870265957,
+      "x_kj": -2029.6578604959834,
+      "raw_y_kj": -367.787014729052,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "TS": {
+      "bin_index": 22,
+      "bin_lower_kj": -310.1986768225144,
+      "bin_upper_kj": -182.83132988373893,
+      "x_kj": -246.51500335312667,
+      "raw_y_kj": -325.61216541939444,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "PS": {
+      "bin_index": 39,
+      "bin_lower_kj": 1855.046221136669,
+      "bin_upper_kj": 1982.4135680754443,
+      "x_kj": 1918.7298946060566,
+      "raw_y_kj": -394.1161445637186,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    }
+  },
+  "metadata": {
+    "reaction": "reaction1",
+    "case_type": "system_site",
+    "system": "sys01_kneutral_tip3p",
+    "site": "site06_res1145",
+    "preset": "baseline",
+    "assignment_mode": "strict",
+    "confidence": "high",
+    "label": "Reaction 1: CO2 adsorption: sys01_kneutral_tip3p/site06_res1145"
+  }
+}

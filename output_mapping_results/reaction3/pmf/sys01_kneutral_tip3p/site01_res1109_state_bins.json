@@ -1,0 +1,78 @@
+{
+  "alpha_kj": 98.34881177203893,
+  "h12_kj": -5056.191935964336,
+  "step": 1,
+  "bins": 50,
+  "minpts": 30,
+  "assignment_mode": "fallback",
+  "confidence": "low",
+  "fallbacks_used": [
+    "side_fallback_basin",
+    "bracketed_ts",
+    "downhill_barrier",
+    "reduced_barrier",
+    "barrier_asymmetry",
+    "central_window_mapping"
+  ],
+  "warnings": [
+    "Using the lowest-energy sampled left bin as a fallback basin.",
+    "Using the highest sampled bin between RS and PS as a fallback transition state.",
+    "Using the lowest-energy sampled right bin as a fallback basin.",
+    "Selected TS lies at or below one basin, so that side of the profile has a zero or negative barrier.",
+    "Selected TS gives a shallow barrier on at least one side of the profile.",
+    "Selected TS is noticeably asymmetric relative to the reactant and product basins.",
+    "Applied central-window state mapping within +/-1500.0 kJ/mol around raw e1-e2=0.",
+    "RS-normalized PMF y-range is 104.41 kcal/mol, above the 20.0 kcal/mol caution threshold."
+  ],
+  "states": {
+    "RS": {
+      "bin_index": 22,
+      "bin_lower_kj": -1529.0630974863243,
+      "bin_upper_kj": -1073.0018729965282,
+      "x_kj": -1301.0324852414262,
+      "raw_y_kj": 5.371083548208389,
+      "source": "central_window",
+      "penalties": [
+        "central_window_mapping"
+      ],
+      "accepted_strictly": false,
+      "points": []
+    },
+    "TS": {
+      "bin_index": 23,
+      "bin_lower_kj": -1073.0018729965282,
+      "bin_upper_kj": -616.9406485067324,
+      "x_kj": -844.9712607516303,
+      "raw_y_kj": 0.0,
+      "source": "central_window",
+      "penalties": [
+        "central_window_mapping"
+      ],
+      "accepted_strictly": false,
+      "points": []
+    },
+    "PS": {
+      "bin_index": 28,
+      "bin_lower_kj": 1207.3042494524511,
+      "bin_upper_kj": 1663.3654739422473,
+      "x_kj": 1435.3348616973492,
+      "raw_y_kj": -0.8006634093471803,
+      "source": "central_window",
+      "penalties": [
+        "central_window_mapping"
+      ],
+      "accepted_strictly": false,
+      "points": []
+    }
+  },
+  "metadata": {
+    "reaction": "reaction3",
+    "case_type": "system_site",
+    "system": "sys01_kneutral_tip3p",
+    "site": "site01_res1109",
+    "preset": "baseline",
+    "assignment_mode": "fallback",
+    "confidence": "low",
+    "label": "Reaction 3: C-OH cleavage: sys01_kneutral_tip3p/site01_res1109"
+  }
+}

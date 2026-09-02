@@ -1,0 +1,63 @@
+{
+  "alpha_kj": 2296.8472392135454,
+  "h12_kj": -2114.516560269718,
+  "step": 1,
+  "bins": 40,
+  "minpts": 30,
+  "assignment_mode": "fallback",
+  "confidence": "low",
+  "fallbacks_used": [
+    "bracketed_ts",
+    "barrier_asymmetry"
+  ],
+  "warnings": [
+    "Using the highest sampled bin between RS and PS as a fallback transition state.",
+    "Selected TS is noticeably asymmetric relative to the reactant and product basins.",
+    "RS-normalized PMF y-range is 120.88 kcal/mol, above the 20.0 kcal/mol caution threshold."
+  ],
+  "states": {
+    "RS": {
+      "bin_index": 16,
+      "bin_lower_kj": -1698.7266462648233,
+      "bin_upper_kj": -1225.2803321622594,
+      "x_kj": -1462.0034892135413,
+      "raw_y_kj": -954.0354575736964,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "TS": {
+      "bin_index": 19,
+      "bin_lower_kj": -278.3877039571311,
+      "bin_upper_kj": 195.05861014543297,
+      "x_kj": -41.66454690584908,
+      "raw_y_kj": -940.7350475029734,
+      "source": "bracketed",
+      "penalties": [
+        "bracketed_ts"
+      ],
+      "accepted_strictly": false,
+      "points": []
+    },
+    "PS": {
+      "bin_index": 28,
+      "bin_lower_kj": 3982.6291229659446,
+      "bin_upper_kj": 4456.075437068509,
+      "x_kj": 4219.352280017227,
+      "raw_y_kj": -1022.9924857006325,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    }
+  },
+  "metadata": {
+    "reaction": "reaction4",
+    "case_type": "reference",
+    "preset": "baseline",
+    "assignment_mode": "fallback",
+    "confidence": "low",
+    "label": "Reaction 4: CO desorption: reference PMF"
+  }
+}

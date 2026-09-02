@@ -1,0 +1,61 @@
+{
+  "alpha_kj": 2296.8472392135454,
+  "h12_kj": -2114.516560269718,
+  "step": 1,
+  "bins": 40,
+  "minpts": 30,
+  "assignment_mode": "strict",
+  "confidence": "high",
+  "fallbacks_used": [
+    "barrier_asymmetry"
+  ],
+  "warnings": [
+    "Selected TS is noticeably asymmetric relative to the reactant and product basins.",
+    "RS-normalized PMF y-range is 118.77 kcal/mol, above the 20.0 kcal/mol caution threshold."
+  ],
+  "states": {
+    "RS": {
+      "bin_index": 14,
+      "bin_lower_kj": -2182.4241622904647,
+      "bin_upper_kj": -1643.30877767508,
+      "x_kj": -1912.8664699827723,
+      "raw_y_kj": -958.0032206744916,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "TS": {
+      "bin_index": 18,
+      "bin_lower_kj": -25.962623828925928,
+      "bin_upper_kj": 513.1527607864587,
+      "x_kj": 243.5950684787664,
+      "raw_y_kj": -931.6413160223856,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "PS": {
+      "bin_index": 25,
+      "bin_lower_kj": 3747.8450684787667,
+      "bin_upper_kj": 4286.9604530941515,
+      "x_kj": 4017.402760786459,
+      "raw_y_kj": -999.850963199794,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    }
+  },
+  "metadata": {
+    "reaction": "reaction4",
+    "case_type": "system_site",
+    "system": "sys04_khco3_co2_tip3p_graphene_weakEy",
+    "site": "site01_res1109",
+    "preset": "baseline",
+    "assignment_mode": "strict",
+    "confidence": "high",
+    "label": "Reaction 4: CO desorption: sys04_khco3_co2_tip3p_graphene_weakEy/site01_res1109"
+  }
+}

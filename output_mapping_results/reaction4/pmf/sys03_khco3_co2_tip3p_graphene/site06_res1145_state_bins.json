@@ -1,0 +1,65 @@
+{
+  "alpha_kj": 2296.8472392135454,
+  "h12_kj": -2114.516560269718,
+  "step": 1,
+  "bins": 40,
+  "minpts": 30,
+  "assignment_mode": "fallback",
+  "confidence": "low",
+  "fallbacks_used": [
+    "side_fallback_basin",
+    "barrier_asymmetry"
+  ],
+  "warnings": [
+    "Using the lowest-energy sampled right bin as a fallback basin.",
+    "Selected TS is noticeably asymmetric relative to the reactant and product basins.",
+    "RS-normalized PMF y-range is 116.50 kcal/mol, above the 20.0 kcal/mol caution threshold."
+  ],
+  "states": {
+    "RS": {
+      "bin_index": 15,
+      "bin_lower_kj": -1933.8985212648306,
+      "bin_upper_kj": -1438.5010853673946,
+      "x_kj": -1686.1998033161126,
+      "raw_y_kj": -956.225425720617,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "TS": {
+      "bin_index": 19,
+      "bin_lower_kj": 47.69122232491307,
+      "bin_upper_kj": 543.0886582223491,
+      "x_kj": 295.38994027363105,
+      "raw_y_kj": -933.5910204150853,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "PS": {
+      "bin_index": 27,
+      "bin_lower_kj": 4010.870709504401,
+      "bin_upper_kj": 4506.268145401837,
+      "x_kj": 4258.569427453119,
+      "raw_y_kj": -1003.928292332265,
+      "source": "fallback",
+      "penalties": [
+        "side_fallback_basin"
+      ],
+      "accepted_strictly": false,
+      "points": []
+    }
+  },
+  "metadata": {
+    "reaction": "reaction4",
+    "case_type": "system_site",
+    "system": "sys03_khco3_co2_tip3p_graphene",
+    "site": "site06_res1145",
+    "preset": "baseline",
+    "assignment_mode": "fallback",
+    "confidence": "low",
+    "label": "Reaction 4: CO desorption: sys03_khco3_co2_tip3p_graphene/site06_res1145"
+  }
+}

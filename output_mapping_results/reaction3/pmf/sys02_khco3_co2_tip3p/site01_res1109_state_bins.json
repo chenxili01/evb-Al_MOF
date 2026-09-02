@@ -1,0 +1,72 @@
+{
+  "alpha_kj": 98.34881177203893,
+  "h12_kj": -5056.191935964336,
+  "step": 1,
+  "bins": 50,
+  "minpts": 30,
+  "assignment_mode": "fallback",
+  "confidence": "low",
+  "fallbacks_used": [
+    "side_fallback_basin",
+    "barrier_asymmetry",
+    "central_window_mapping"
+  ],
+  "warnings": [
+    "Using the lowest-energy sampled left bin as a fallback basin.",
+    "Using the lowest-energy sampled right bin as a fallback basin.",
+    "Selected TS is noticeably asymmetric relative to the reactant and product basins.",
+    "Applied central-window state mapping within +/-1500.0 kJ/mol around raw e1-e2=0.",
+    "RS-normalized PMF y-range is 109.63 kcal/mol, above the 20.0 kcal/mol caution threshold."
+  ],
+  "states": {
+    "RS": {
+      "bin_index": 22,
+      "bin_lower_kj": -1594.205954629183,
+      "bin_upper_kj": -1135.6039138128563,
+      "x_kj": -1364.9049342210196,
+      "raw_y_kj": 6.0898681690850935,
+      "source": "central_window",
+      "penalties": [
+        "central_window_mapping"
+      ],
+      "accepted_strictly": false,
+      "points": []
+    },
+    "TS": {
+      "bin_index": 23,
+      "bin_lower_kj": -1135.6039138128563,
+      "bin_upper_kj": -677.0018729965299,
+      "x_kj": -906.3028934046931,
+      "raw_y_kj": 1.6688069530041503,
+      "source": "central_window",
+      "penalties": [
+        "central_window_mapping"
+      ],
+      "accepted_strictly": false,
+      "points": []
+    },
+    "PS": {
+      "bin_index": 28,
+      "bin_lower_kj": 1157.406290268776,
+      "bin_upper_kj": 1616.0083310851028,
+      "x_kj": 1386.7073106769394,
+      "raw_y_kj": -3.8487349178567456,
+      "source": "central_window",
+      "penalties": [
+        "central_window_mapping"
+      ],
+      "accepted_strictly": false,
+      "points": []
+    }
+  },
+  "metadata": {
+    "reaction": "reaction3",
+    "case_type": "system_site",
+    "system": "sys02_khco3_co2_tip3p",
+    "site": "site01_res1109",
+    "preset": "baseline",
+    "assignment_mode": "fallback",
+    "confidence": "low",
+    "label": "Reaction 3: C-OH cleavage: sys02_khco3_co2_tip3p/site01_res1109"
+  }
+}

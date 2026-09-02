@@ -1,0 +1,58 @@
+{
+  "alpha_kj": 62.015839866683066,
+  "h12_kj": -235.8174310466176,
+  "step": 1,
+  "bins": 50,
+  "minpts": 30,
+  "assignment_mode": "strict",
+  "confidence": "high",
+  "fallbacks_used": [
+    "barrier_asymmetry"
+  ],
+  "warnings": [
+    "Selected TS is noticeably asymmetric relative to the reactant and product basins."
+  ],
+  "states": {
+    "RS": {
+      "bin_index": 6,
+      "bin_lower_kj": -698.0097811932135,
+      "bin_upper_kj": -649.7301255809687,
+      "x_kj": -673.8699533870911,
+      "raw_y_kj": -70.73148394302015,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "TS": {
+      "bin_index": 17,
+      "bin_lower_kj": -166.93356945851966,
+      "bin_upper_kj": -118.65391384627478,
+      "x_kj": -142.79374165239722,
+      "raw_y_kj": -49.01555155586118,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    },
+    "PS": {
+      "bin_index": 35,
+      "bin_lower_kj": 702.1002315618887,
+      "bin_upper_kj": 750.3798871741335,
+      "x_kj": 726.2400593680111,
+      "raw_y_kj": -124.37852971402405,
+      "source": "interior",
+      "penalties": [],
+      "accepted_strictly": true,
+      "points": []
+    }
+  },
+  "metadata": {
+    "reaction": "reaction2",
+    "case_type": "reference",
+    "preset": "baseline",
+    "assignment_mode": "strict",
+    "confidence": "high",
+    "label": "Reaction 2: COOH formation: reference PMF"
+  }
+}

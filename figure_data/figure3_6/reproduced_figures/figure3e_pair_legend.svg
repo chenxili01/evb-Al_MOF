@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="135.36pt" height="24.7248pt" viewBox="0 0 135.36 24.7248" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-02T17:10:39.634101</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 24.7248 
+L 135.36 24.7248 
+L 135.36 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1"/>
+  <g id="legend_1">
+   <g id="text_1">
+    <text style="font-size: 5.5px; font-family: 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="62.789727" y="9.840994" transform="rotate(-0 62.789727 9.840994)">Pair</text>
+   </g>
+   <g id="line2d_1">
+    <defs>
+     <path id="m76716f5615" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #0000f7"/>
+    </defs>
+    <g>
+     <use xlink:href="#m76716f5615" x="17.086016" y="15.757791" style="fill: #0000f7; stroke: #0000f7"/>
+    </g>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 5.5px; font-family: 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="23.961016" y="17.682791" transform="rotate(-0 23.961016 17.682791)">Ic-Ia</text>
+   </g>
+   <g id="line2d_2">
+    <defs>
+     <path id="mce318586ee" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #f4331e"/>
+    </defs>
+    <g>
+     <use xlink:href="#mce318586ee" x="43.731797" y="15.757791" style="fill: #f4331e; stroke: #f4331e"/>
+    </g>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 5.5px; font-family: 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="50.606797" y="17.682791" transform="rotate(-0 50.606797 17.682791)">Bc-Ba</text>
+   </g>
+   <g id="line2d_3">
+    <defs>
+     <path id="me22b43e752" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #ffb700"/>
+    </defs>
+    <g>
+     <use xlink:href="#me22b43e752" x="74.658984" y="15.757791" style="fill: #ffb700; stroke: #ffb700"/>
+    </g>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 5.5px; font-family: 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="81.533984" y="17.682791" transform="rotate(-0 81.533984 17.682791)">Id-Ib</text>
+   </g>
+   <g id="line2d_4">
+    <defs>
+     <path id="m4587954607" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #00a878"/>
+    </defs>
+    <g>
+     <use xlink:href="#m4587954607" x="101.613281" y="15.757791" style="fill: #00a878; stroke: #00a878"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 5.5px; font-family: 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="108.488281" y="17.682791" transform="rotate(-0 108.488281 17.682791)">Bd-Bb</text>
+   </g>
+  </g>
+ </g>
+</svg>
