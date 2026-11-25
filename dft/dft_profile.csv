@@ -1,0 +1,12 @@
+order,state,step,dG_step_kcal,G_profile_kcal,derivation
+1,2[CoIITPP]0,,,6.90,start of the plotted profile (= 0.00 − step 2)
+2,1[CoITPP]1-,+e-,-6.90,0.00,from the experimental CoII/CoI redox potential (not a DFT value)
+3,TS_R1,+CO2,15.83,15.83,G(TS_R1) − G(CoI_TPP_minus) − G(CO2)
+4,1[*CO2]1-,,-11.27,4.56,G(CoTPP_CO2_minus) − G(TS_R1)
+5,2[*CO2]2-,+e-,9.78,14.34,G(CoTPP_CO2_2minus) − G(CoTPP_CO2_minus) + electron at −0.7 V vs RHE (see electron_transfer below)
+6,TS_R2,+H2O,5.19,19.53,G(TS_R2) − G(CoTPP_CO2_2minus_5H2O)
+7,2[*COOH]1-,-OH-,-12.86,1.48,step R2 ΔG relative to state 5: G(CoTPP_COOH_minus_5H2O) + G(OH_minus) − G(CoTPP_CO2_2minus_5H2O) − G(H2O)
+8,TS_R3,,0.23,1.71,G(TS_R3) − G(CoTPP_COOH_minus_5H2O)
+9,2[*CO]0,-OH-,-6.63,-5.15,step R3 ΔG relative to state 7: G(CoTPP_CO_OH_minus_5H2O) − G(CoTPP_COOH_minus_5H2O)
+10,TS_R4,,3.58,-1.57,G(TS_R4) − G(CoTPP_CO)
+11,2[CoIITPP]0,-CO,-16.08,-21.23,step R4 ΔG relative to state 9: G(CoII_TPP) + G(CO) − G(CoTPP_CO)

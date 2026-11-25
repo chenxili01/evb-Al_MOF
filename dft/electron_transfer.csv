@@ -1,0 +1,8 @@
+quantity,value,unit,note
+F,23.06,kcal/(mol V),Faraday constant
+E_abs_SHE,4.44,V,absolute potential of the standard hydrogen electrode
+U_vs_RHE,-0.7,V,applied potential
+pH,7.3,,
+nernst_slope,0.0591,V,per pH unit
+electron_free_energy_shift,76.2956,kcal/mol,"F × (E_abs_SHE + U_vs_RHE − nernst_slope × pH), added to each reduction step"
+OH_minus_pH_correction,-9.1403,kcal/mol,"0.05916 × 23.06 × (pH − 14), included in dG_add of OH_minus"

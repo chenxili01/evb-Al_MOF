@@ -1,0 +1,18 @@
+; Energy minimisation (cut-offs as in the paper tpr: PME, 1.0 nm)
+integrator               = steep
+emtol                    = 500.0
+emstep                   = 0.001
+nsteps                   = 50000
+cutoff-scheme            = Verlet
+nstlist                  = 10
+coulombtype              = PME
+rcoulomb                 = 1.0
+vdw-type                 = Cut-off
+vdw-modifier             = Potential-shift
+rvdw                     = 1.0
+DispCorr                 = EnerPres
+fourierspacing           = 0.16
+pme-order                = 4
+ewald-rtol               = 1e-5
+pbc                      = xyz
+constraints              = none

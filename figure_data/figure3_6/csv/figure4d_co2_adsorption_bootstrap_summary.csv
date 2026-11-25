@@ -1,5 +1,0 @@
-contribution,contribution_definition,mean,ci95_low,ci95_high,n_sites,bootstrap_replicates
-mof_embedding,system I - molecular reference,-7.744298186993334,-9.793194481393684,-5.717135441441815,8,10000
-electrolyte,system II - system I,0.34807400106588116,-0.042648424213385494,0.7922616711914644,8,10000
-electrode,system III - system II,-0.5114284572184618,-1.2371584340057176,0.08354327754569274,8,10000
-electric_field,system IV - system III,0.6162346159538236,0.13056000687147262,1.0623874224419732,8,10000

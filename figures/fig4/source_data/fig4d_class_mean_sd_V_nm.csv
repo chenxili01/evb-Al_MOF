@@ -1,0 +1,4 @@
+class,water_K_mean,water_K_std,linker_net_mean,linker_net_std,linker_behind_Co_mean,linker_behind_Co_std,linker_beyond_CO2_mean,linker_beyond_CO2_std,E_total_mean,E_total_std,bar_total
+boundary,-4.4673,0.2796,-2.8542,0.0323,-2.8542,0.0323,0.0000,0.0000,-7.3122,0.3017,-7.3215
+inner,-7.6660,0.1845,1.4398,0.0069,-2.8476,0.0095,4.2882,0.0156,-6.2190,0.1817,-6.2262
+reference,-5.8033,,0.0000,,0.0000,,0.0000,,-5.8033,,-5.8033

@@ -1,0 +1,40 @@
+; NPT 1 ns, isotropic C-rescale, weak Al position restraints
+define                   = -DPOSRES_AL     ; weak Al restraints (itps/AL6.itp), reference em.gro
+integrator               = md
+dt                       = 0.001
+nsteps                   = 1000000
+continuation             = yes
+gen-vel                  = no
+nstxout-compressed       = 0
+nstenergy                = 5000
+nstlog                   = 10000
+pcoupl                   = C-rescale
+pcoupltype               = isotropic       ; GROMACS semiisotropic = xy vs z; it let the box shape drift (pilot)
+tau-p                    = 5.0
+ref-p                    = 1.0
+compressibility          = 4.5e-5
+refcoord-scaling         = com             ; restraint reference follows the box scaling
+; --- interactions: identical to the paper tpr (site04_window04_stateA.tpr) ---
+cutoff-scheme            = Verlet
+nstlist                  = 10
+verlet-buffer-tolerance  = 0.005
+coulombtype              = PME
+rcoulomb                 = 1.0
+vdw-type                 = Cut-off
+vdw-modifier             = Potential-shift
+rvdw                     = 1.0
+DispCorr                 = EnerPres
+fourierspacing           = 0.16
+pme-order                = 4
+ewald-rtol               = 1e-5
+pbc                      = xyz
+constraints              = h-bonds
+constraint-algorithm     = lincs
+lincs-order              = 4
+comm-mode                = Linear
+; single coupling group, as in the paper tpr
+tcoupl                   = V-rescale
+tc-grps                  = System
+tau-t                    = 0.1
+ref-t                    = 298.15
+free-energy              = no

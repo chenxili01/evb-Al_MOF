@@ -1,3 +1,6 @@
-numpy
-scipy
-matplotlib
+numpy>=2.0
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.8
+# optional, only for figures/fig3/analysis/water_from_trajectory.py
+# MDAnalysis>=2.7

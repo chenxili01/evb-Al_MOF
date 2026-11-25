@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+md_field_screen/figures/
+reproduced_results/

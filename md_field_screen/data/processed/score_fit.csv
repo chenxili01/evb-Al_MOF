@@ -1,0 +1,2 @@
+a,b,c,d,n,fit_MAE,LOO_MAE,LOO_max_abs_err,LOO_RMSE,LOO_Q2,LOO_spearman,LOO_MAE_kcal,median_N_sem_reps,E_inner,E_boundary,span_kcal
+0.6616,0.4899,0.2239,0.4317,18,0.0216,0.0288,0.0964,0.0385,0.9560,0.8968,0.1440,0.0248,-6.2190,-7.3122,-5.0024

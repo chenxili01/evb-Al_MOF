@@ -1,0 +1,14 @@
+parameter,value
+S_kcal_per_V_nm,4.57600
+E_ref_V_nm,-5.80340
+evb_reference_dG_kcal,4.44351
+offset_exact_kcal,-3.22472
+offset_plotted_kcal,-3.20000
+offset_se_kcal,0.40555
+pearson_r,0.92629
+pearson_p,0.00095
+spearman_rho,0.76190
+loo_mae_kcal,1.13107
+loo_max_kcal,1.73004
+mean_E_ax_inner,-6.21900
+mean_E_ax_boundary,-7.31222

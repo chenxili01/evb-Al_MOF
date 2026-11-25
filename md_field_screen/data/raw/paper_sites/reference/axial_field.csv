@@ -1,0 +1,2 @@
+resid,E_ax,E_SOL,E_K,E_MOL,E_TCC,E_AL6,E_MOH,E_CUT,E_other,bond_nm,E_ax_std,E_ax_sem_reps,E_ax_rep1,E_ax_rep2,E_ax_rep3,n_frames,bond_max_nm
+1,-5.80335,-5.44759,-0.35576,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.20057,2.41611,0.12648,-5.55044,-5.92538,-5.93422,903,0.20939

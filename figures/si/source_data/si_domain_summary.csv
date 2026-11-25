@@ -1,0 +1,11 @@
+quantity,value
+n_sites,1726
+calibration_min_V_nm,-7.6891
+calibration_max_V_nm,-5.8033
+pct_inside,96.23406720741599
+pct_weaker,2.8389339513325607
+n_weaker,49
+weaker_models,slab_t1
+pct_stronger,0.9269988412514484
+min_field_V_nm,-7.81170104895105
+extension_V_nm,0.12260104895104984

@@ -1,0 +1,17 @@
+reaction,system_display,pair,abs_diff_activation,abs_diff_reaction
+reaction1,I,Bb/Bc,0.044325,0.997218
+reaction1,I,Ib/Ic,0.073683,0.162392
+reaction1,II,Bb/Bc,0.594983,0.763391
+reaction1,II,Ib/Ic,0.547337,1.491995
+reaction2,I,Bb/Bc,0.162016,0.030346
+reaction2,I,Ib/Ic,0.095733,0.650203
+reaction2,II,Bb/Bc,0.056069,0.114778
+reaction2,II,Ib/Ic,0.255895,0.217667
+reaction3,I,Bb/Bc,0.176296,0.543164
+reaction3,I,Ib/Ic,0.129596,0.239341
+reaction3,II,Bb/Bc,0.367852,0.563783
+reaction3,II,Ib/Ic,0.004352,0.836659
+reaction4,I,Bb/Bc,0.194619,1.030375
+reaction4,I,Ib/Ic,0.379119,0.478253
+reaction4,II,Bb/Bc,0.865211,2.699254
+reaction4,II,Ib/Ic,0.042261,0.802364
